@@ -1,0 +1,6 @@
+I:\Mon Drive\Ecoles\Webstart\23-34\Dev2-3\Dungeon\Model\obj\x86\Debug\Dungeon.csproj.AssemblyReference.cache
+I:\Mon Drive\Ecoles\Webstart\23-34\Dev2-3\Dungeon\Model\obj\x86\Debug\Dungeon.csproj.CoreCompileInputs.cache
+I:\Mon Drive\Ecoles\Webstart\23-34\Dev2-3\Dungeon\Model\bin\Debug\ConsoleApplication.exe
+I:\Mon Drive\Ecoles\Webstart\23-34\Dev2-3\Dungeon\Model\bin\Debug\ConsoleApplication.pdb
+I:\Mon Drive\Ecoles\Webstart\23-34\Dev2-3\Dungeon\Model\obj\x86\Debug\ConsoleApplication.exe
+I:\Mon Drive\Ecoles\Webstart\23-34\Dev2-3\Dungeon\Model\obj\x86\Debug\ConsoleApplication.pdb
