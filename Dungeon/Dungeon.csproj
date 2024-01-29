@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<UseWindowsForms>true</UseWindowsForms>
+		<TargetFramework>net7.0-windows</TargetFramework>
+		<RootNamespace>DungeonGame</RootNamespace>
+		<StartupObject>GameManager</StartupObject>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="Weapons\Arrows.cs" />
+		<Compile Include="Weapons\Arsenal.cs" />
+		<Compile Include="Barbarian.cs" />
+		<Compile Include="Cape.cs" />
+		<Compile Include="Chest.cs" />
+		<Compile Include="Weapons\Claw.cs" />
+		<Compile Include="Weapons\Dagger.cs" />
+		<Compile Include="Dungeon.cs" />
+		<Compile Include="Weapons\Fire.cs" />
+		<Compile Include="Game.cs" />
+		<Compile Include="GameManager.cs" />
+		<Compile Include="Hero.cs" />
+		<Compile Include="Weapons\IceArrow.cs" />
+		<Compile Include="Item.cs" />
+		<Compile Include="Ligthning.cs" />
+		<Compile Include="Magician.cs" />
+		<Compile Include="Monster.cs" />
+		<Compile Include="Pendant.cs" />
+		<Compile Include="Properties\Settings.Designer.cs">
+			<AutoGen>True</AutoGen>
+			<DesignTimeSharedInput>True</DesignTimeSharedInput>
+			<DependentUpon>Settings.settings</DependentUpon>
+		</Compile>
+		<Compile Include="Protection.cs" />
+		<Compile Include="Room.cs" />
+		<Compile Include="Shield.cs" />
+		<Compile Include="Weapons\Spike.cs" />
+		<Compile Include="Weapons\Sword.cs" />
+		<Compile Include="Thief.cs" />
+		<Compile Include="WaterFlask.cs" />
+		<Compile Include="Weapons\Weapon.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Update="Properties\Settings.Designer.cs">
+			<AutoGen>True</AutoGen>
+			<DesignTimeSharedInput>True</DesignTimeSharedInput>
+			<DependentUpon>Settings.settings</DependentUpon>
+		</None>
+	</ItemGroup>
+
+</Project>

@@ -4,9 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class Cape {
+public class Claw : Weapon
+{
 
-    public Cape() {
+    public Claw() {
     }
 
 }

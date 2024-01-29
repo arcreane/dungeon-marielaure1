@@ -4,9 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class Thief {
+public class Fire : Weapon
+{
 
-    public Thief() {
+    public Fire() {
     }
 
 }

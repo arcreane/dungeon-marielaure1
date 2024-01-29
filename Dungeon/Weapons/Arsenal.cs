@@ -4,9 +4,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class Barbarian {
+public class Arsenal : Weapon
+{
 
-    public Barbarian() {
+    public Arsenal() {
     }
+
+    public HashSet<Weapon> Weapons;
+
+
 
 }

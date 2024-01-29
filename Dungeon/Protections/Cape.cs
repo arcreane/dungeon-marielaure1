@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class Shield {
+public class Cape : Protection{
 
-    public Shield() {
+    public Cape() {
     }
 
 }

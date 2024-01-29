@@ -4,12 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public struct Weapon {
+public class Dagger : Weapon
+{
 
-    public Weapon() {
+    public Dagger() {
     }
-
-
-
 
 }

@@ -6,19 +6,41 @@ using System.Text;
 
 public class Hero {
 
-    public Hero() {
+    public int Gold { get; set; }
+    public List<Item> Inventory { get; set; }
+    public Weapon EquippedWeapon { get; set; }
+    public Protection Protection { get; set; }
+
+    public Hero(string name, int lifePoints, int gold) : base(name, lifePoints)
+    {
+        Gold = gold;
+        Inventory = new List<Item>();
     }
 
     public HashSet<Protection> Protections;
 
     public Arsenal HeroArsenal;
-
-    public int m_iLifePoints;
-
-    public Weapon ActiveWeapon;
+    private int _lifePoints;
 
 
+    public int LifePoints
+    {
+        get { return _lifePoints; }
+        set
+        {
+            _lifePoints = value;
+            if (_lifePoints < 0)
+                IsDead = true;
+        }
+    }
 
+    public void UseItem(Item item)
+    {
+
+    }
+
+    public abstract void ApplyDamagesToEnemy(Character p_CharacterToApplyDamge);
+    public abstract int ReceiveDamage(Character p_CharacterApplyingDamage);
 
     public void SelectProtection() {
         // TODO implement here

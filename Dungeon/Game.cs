@@ -12,9 +12,6 @@ public class Game {
 
     public DungeonPlace GameDungeon;
 
-
-
-
     public void Initialise() {
         // TODO implement here
     }

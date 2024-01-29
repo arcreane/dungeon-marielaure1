@@ -4,9 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class Arrows {
+public class IceArrow : Weapon
+{
 
-    public Arrows() {
+    public IceArrow() {
     }
 
 }
